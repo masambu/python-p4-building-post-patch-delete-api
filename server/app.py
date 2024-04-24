@@ -16,7 +16,7 @@ migrate = Migrate(app, db)
 db.init_app(app)
 
 @app.route('/')
-def index():
+def index() :
     return "Index for Game/Review/User API"
 
 @app.route('/games')
